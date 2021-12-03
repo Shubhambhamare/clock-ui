@@ -1,0 +1,330 @@
+body{
+    background-color: #3D087B;
+}
+.main_container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+}
+.clock_container{
+    
+    width: 193px;
+    height: 74px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-top: 82px;
+    margin-left: 94px;
+}
+.clock_image{
+    width: 195px;
+    height: 72px;
+}
+.bottom_container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5vh;
+    border-radius: 10px;
+    margin-top: 480px;
+    margin-left: -198px;
+}
+.settime{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #3d087b;
+    font-size: 18px;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    margin-left: 27px;
+}
+select {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3d087bde;
+    padding: 0.5vh 3vw;
+    border-radius: 7px;
+    border: 1.5px solid #ededed;
+  }
+#nap_time{
+    margin-left: 200pxs
+}
+.setbox{    
+    display: flex;
+    flex-direction: column;
+    gap: 9vh;
+    margin-left: 30px;
+}
+.symbols{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.left-box {
+    width: 100%;
+}
+
+.left-box3 {
+    background-color: #6a419a;
+    box-sizing: border-box;
+    padding: 3.5vh 3vw;
+    border-radius: 10px;
+    height: 47px;
+    width: 483px;
+    margin-left: 85px;
+  }
+  
+  .left-box3-in {
+    font-family: "myFirstFont";
+    font-size: 27px;
+    color: #ffffff;
+    margin-top: -12px
+  }
+  
+  .left-box4 {
+    background: transparent
+      linear-gradient(113deg, #6e54ec 0%, #cb52f8 40%, #fc5eff 81%, #f1a7c5 100%)
+      0% 0% no-repeat padding-box;
+    width: 55%;
+    box-sizing: border-box;
+    padding: 1vh;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .left-box4-in {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .left-box5-in {
+    width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 4px;
+    padding: 1vh 0;
+  }
+  
+  .left-box5-btn {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: green;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 1vh 1vw;
+    border-radius: 4px;
+  }
+  
+.left-box5-btn:hover {
+    background-color: rgb(0, 255, 0);
+    color: black;
+}
+.maindynamic{
+    margin-top: 350px;
+    height: 55px;
+    width: 569px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+/* ccccc */
+
+
+#right-container {
+    height: 90%;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.5vh;
+    padding: 1.5vh;
+  }
+  
+  .right-box {
+    width: 100%;
+  }
+  
+  .right-box1 {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .right-box1-top {
+    width: 700px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .right-box1-top-in {
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background-color: #ffffff;
+    padding: 12vh;
+    gap: 2vw;
+    border-radius: 10px;
+    margin-top: -512px;
+    margin-right: -673px;
+    margin-left: 760px;
+}
+  .time-box1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3d087b;
+  }
+  
+  
+  .time-box2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .time-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+  }
+  
+  .time-text1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #8a11bf;
+  }
+  
+  .time-text2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #5f0089;
+  }
+  
+  .time-box-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time-colon {
+    margin: -1vw;
+    font-family: "Barlow", sans-serif;
+    color: #8a11bf;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  .time-box3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.time-box4 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  
+.time-box5 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+  
+.time-box5-text {
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+}
+  
+  .time-box5-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-box1-middle {
+    width: 75%;
+    height: 45%;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    top: 70%;
+    opacity: 0.71;
+    border-radius: 10px;
+  }
+  
+  .right-box1-bottom {
+    width: 70%;
+    height: 45%;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%, -3vh);
+    z-index: -2;
+    opacity: 0.22;
+    border-radius: 10px;
+}
+  
+  .right-box2 {
+    background-color: #ffffff;
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .right-box2-in{
+    height: 407px;
+   width: 531px;
+ background-color: #ededed;
+ position: absolute;
+ bottom: -50px;
+ margin-left: 725px;
+}
+ 
+  .right-box2-text {
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    font-family: "myFirstFont";
+    font-size: 30px;
+    color: #8e53f0;
+  }
+  
